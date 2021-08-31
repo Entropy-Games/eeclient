@@ -1,0 +1,37 @@
+{
+  "name": "eeclient",
+  "version": "0.1.3",
+  "description": "Client for the online Entropy Engine editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No Tests set up for eeclient\"",
+    "start": "node . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revers3ntropy/eeclient.git"
+  },
+  "keywords": [
+    "javascript",
+    "gameengine",
+    "typescript",
+    "entropyengine",
+    "revers3ntropy",
+    "games"
+  ],
+  "author": "revers3ntropy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revers3ntropy/eeclient/issues"
+  },
+  "homepage": "https://entropyengine.dev/",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-watch": "^0.7.1",
+    "yargs": "^17.1.1",
+    "ssl-root-cas": "^1.3.1"
+  },
+  "devDependencies": {}
+}
